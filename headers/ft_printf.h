@@ -25,5 +25,7 @@ struct s_s
 };
 
 int	ft_printf(const char *, ...);
+void	ft_print_d(t_t t, int i);
+void	ft_print_c(t_t t, char c);
 
 #endif
